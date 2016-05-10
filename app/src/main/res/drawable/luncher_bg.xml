@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <!--这里opacity属性一订要设置为opaque,同时在之后要显示的activity一定要设置背景色-->
+
+    <!--背景颜色-->
+    <item android:drawable="@drawable/background" />
+
+    <!--显示的图标-->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/hkff_icon" />
+    </item>
+</layer-list>

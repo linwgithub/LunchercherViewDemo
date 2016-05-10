@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.linw.lunchercherviewdemo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hkff_icon" />
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_normal_height"
+            android:layout_below="@id/img_icon"
+            android:layout_centerHorizontal="true"
+            android:alpha="0"
+            android:text="@string/hello"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_main_login"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_normal_height"
+            android:layout_below="@id/tv_main"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/login"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_main_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@id/btn_main_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_bg"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/register"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <!--<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/cl"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:fitsSystemWindows="true">-->
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+    <!--android:id="@+id/bottom_sheet"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:behavior_hideable="true"-->
+    <!--app:behavior_peekHeight="50dp"-->
+    <!--app:layout_behavior="@string/bottom_sheet_behavior">-->
+    <!--&lt;!&ndash; NestedScrollView里设置你的底部表长什么样的&ndash;&gt;-->
+    <!--</android.support.v4.widget.NestedScrollView>-->
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+</RelativeLayout>

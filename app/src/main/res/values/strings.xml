@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LunchercherViewDemo</string>
+    <string name="login">登錄</string>
+    <string name="register">註冊</string>
+    <string name="hello">歡迎使用本軟件</string>
+</resources>
